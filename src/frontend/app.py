@@ -26,29 +26,52 @@ with col1:
             "Manufacturing",
             "Retail",
             "Healthcare",
-            "Technology",
+            "Logistics",
             "Education",
-            "Transportation",
+            "Telecom",
+            "IT",
         ],
     )
-
     job_role = st.selectbox(
         "Job Role",
         [
             "Accountant",
-            "Auditor",
-            "Store Manager",
             "Production Supervisor",
+            "Store Manager",
+            "Auditor",
+            "Network Engineer",
             "Software Engineer",
-            "Data Analyst",
+            "ML Engineer",
+            "Inventory Analyst",
+            "Dispatcher",
+            "Health Analyst",
+            "Support Specialist",
+            "Sales Associate",
+            "Academic Coordinator",
+            "Financial Analyst",
+            "Operator",
+            "Research Assistant",
+            "Quality Engineer",
             "Teacher",
-            "HR Manager",
+            "Warehouse Manager",
+            "Supply Chain Analyst",
+            "Operations Analyst",
+            "Medical Assistant",
+            "Nurse",
+            "Data Analyst",
         ],
     )
 
     company_size = st.selectbox("Company Size", ["Small", "Medium", "Large"])
 
-    job_level = st.selectbox("Job Level", ["Entry", "Mid", "Senior", "Executive"])
+    job_level = st.selectbox(
+        "Job Level",
+        [
+            "Entry",
+            "Mid",
+            "Senior",
+        ],
+    )
 
 with col2:
     routine_task_percentage = st.slider("Routine Task Percentage", 0, 100, 50)
