@@ -1,1 +1,6 @@
-getting the datset using os from dotenv
+getting the datset using os from dotenv - the project root was wrong so corrected it
+model parameters
+
+loading the path is the problem - so use Path library
+
+in prediction make sure u are return the dictionary
